@@ -1,2 +1,7 @@
 # Repositório público de Edson Parisotto
-Página do perfil
+*Copyright (C) 2020 Edson Parisotto*
+
+## Página do perfil
+* Site relacionado: [Parisotto.Net](https://parisotto.net)
+
+### V. Beta
