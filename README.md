@@ -4,6 +4,6 @@
 <img src='img/elp.jpg' align='left' width='300'>
 
 ## Página do perfil
-* Site relacionado: [Parisotto.Net](https://parisotto.net)
+Site relacionado: [Parisotto.Net](https://parisotto.net)
 
-### V. Alfa Zero
+#### *V. Alfa Zero*
