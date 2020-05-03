@@ -1,7 +1,13 @@
-# Repositório público de Edson Parisotto
+# [Repositório público de Edson Parisotto](https://parisotto.github.io)
 *Copyright (C) 2020 __Edson Parisotto__*
 
-## Página do perfil
-* Site relacionado: [Parisotto.Net](https://parisotto.net)
+<img src='img/elp.jpg' align='right' width='200'>
 
-### V. Beta
+## Página do perfil
+* - [x] Site relacionado: [Parisotto.Net](https://parisotto.net)
+
+### V. Alfa Zero
+
+---
+
+- [ ] Desenvolver
