@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #1b1b1b;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  width:100%;
+  bottom: 0px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+a {
+  font-family: verdana;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+a:hover {
+  color:gray;
+}
+
+img {
+  max-width: 50vw;
+  max-height: 50vh;
+}   
+
+.pulse {
+  border-radius: 50%;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% { box-shadow: 0 0 0 0 #ccc5, 0 0 0 0 #ccc5; }
+  40% { box-shadow: 0 0 0 90px #ccc0, 0 0 0 0 #ccc5; }
+  80% { box-shadow: 0 0 0 90px #ccc0, 0 0 0 70px #ccc0; }
+  100% { box-shadow: 0 0 0 0 #ccc0, 0 0 0 70px #ccc0; }
+}	
