@@ -1,3 +1,4 @@
 config:
 edit;
 update;
+setup:
