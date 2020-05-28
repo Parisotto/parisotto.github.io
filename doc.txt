@@ -2,3 +2,4 @@ config:
 edit;
 update;
 setup:
+date:
