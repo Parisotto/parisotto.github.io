@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{ height: 100%; }
+        html{
+            background: linear-gradient(#2980b9,#2c3e50);
+        }
+        body{
+            background-image: url('img/ocean3.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow:hidden;
+        }
+        img{
+            position: absolute;
+        }
+        #atum{
+            top:15%;
+            width:80px;
+            animation: nadar .35s infinite, mover 10s infinite linear;
+        }
+        #dourado {
+            top:5%;
+            width:140px;
+            animation: nadar .5s infinite, mover-contra 7s infinite linear;
+        }
+        #pescado {
+            top:45%;
+            width:130px;
+            animation: nadar .65s infinite, mover 5.8s infinite linear;
+        }
+        #linguado{
+            top:61%;
+            width:92px;
+            animation: nadar .4s infinite, mover-contra 8.8s infinite linear;
+        }
+        #baiacu{
+            top:70%;
+            width:160px;
+            animation: nadar .3s infinite, mover 11s infinite linear;
+        }
+        #pintado{
+            top:53%;
+            width:100px;
+            animation: nadar .25s infinite, mover-contra 6s infinite linear;
+        }
+        #ancora{
+            width: 150px;
+            left: 50%;
+            animation: cair 15s infinite linear, nadar 3s infinite;
+        }
+        #estrela1, #estrela2, #estrela3{
+            width: 40px;
+        }
+        #estrela1{
+            left:15%;
+            animation: cair 6.5s infinite linear, girar 2s infinite linear;
+        }
+        #estrela2{
+            left:35%;
+            animation: cair 11.5s infinite linear, girar 1s infinite linear;
+        }
+        #estrela3{
+            left:78%;
+            animation: cair 9.5s infinite linear, girar 3s infinite linear;
+        }
+        #tubarao{
+            width: 250px;
+            top:30%;
+            animation: nadar 5s infinite, mover 5s infinite linear;
+        }
+        #sub{
+            top:50%;
+            width: 120px;
+            animation: mover-contra 15s infinite linear;
+        }
+        #horse{
+            top:70%;
+            animation:nadar 5s infinite, mover-contra 25s infinite linear;
+        }
+        @keyframes girar{
+            0%{ transform: rotate(0deg); }
+            100%{ transform:rotate(360deg); }
+        }
+        @keyframes nadar{
+            0%{ transform: rotate(18deg)}
+            50%{ transform: rotate(-18deg)}
+            100%{ transform: rotate(18deg)}
+        }
+        @keyframes mover{
+            0%{ right:0; }
+            100%{ right: 105%; }
+        }
+        @keyframes mover-contra{
+            0%{ left:0; }
+            100%{ left: 105%; }
+        }
+        @keyframes cair{
+            0%{ top: -10%; }
+            80%{ top: 100% }
+            100%{ top: 100% }
+        }
+    </style>
+</head>
+<body>
+    <img src="img/fish.png" id="atum" title="atum">
+    <img src="img/fish-contra.png" id="dourado" title="dourado">
+    <img src="img/fish.png" id="pescado" title="pescado">
+    <img src="img/fish-contra.png" id="linguado" title="linguado">
+    <img src="img/fish.png" id="baiacu" title="baiacu">
+    <img src="img/fish-contra.png" id="pintado" title="pintado">
+
+    <img src="img/anchor.png" id="ancora">
+
+    <img src="img/starfish.png" id="estrela1">
+    <img src="img/starfish.png" id="estrela2">
+    <img src="img/starfish.png" id="estrela3">
+
+    <img src="img/shark.gif" id="tubarao">
+
+    <img src="img/sub.png" id="sub">
+
+    <img src="img/horse.png" id="horse">
+</body>
+</html>
